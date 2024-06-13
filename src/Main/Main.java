@@ -21,15 +21,11 @@ public class Main extends Application{
                 .requireNonNull(getClass()
                 .getResource("/Resources/fxml/Acceso.fxml")));
         scene = new Scene(root);
-        scene.getStylesheets().add(Objects
-                .requireNonNull(getClass()
-                .getResource("/Resources/css/style.css"))
-                .toExternalForm());
         stage.setScene(scene);
         stage.show();
     }
 
-    protected void cargarNuevoFXML(String rutaFXML) {
+    public void cargarNuevoFXML(String rutaFXML) {
         try {
             Parent nuevoRoot = FXMLLoader.load(Objects
                     .requireNonNull(getClass()

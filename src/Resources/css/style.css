@@ -1,0 +1,62 @@
+.button {
+    -fx-text-fill: white;
+    -fx-padding: 4px 8px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 3px;
+}
+
+.button.success {
+    -fx-background-color: #28a745;
+    -fx-border-color: #28a745;
+}
+
+.button.success:hover {
+    -fx-background-color: #33d357;
+    -fx-border-color: #33d357;
+}
+
+.button.success:pressed {
+    -fx-background-color: #218838;
+}
+
+.button.primary {
+    -fx-background-color: #007bff;
+    -fx-border-color: #007bff;
+}
+
+.button.primary:hover {
+    -fx-background-color: #3f9aff;
+    -fx-border-color: #3f9aff;
+}
+
+.button.primary:pressed {
+    -fx-background-color: #0056b3;
+}
+
+.button.warning {
+    -fx-background-color: #ffc107;
+    -fx-border-color: #ffc107;
+}
+
+.button.warning:hover {
+    -fx-background-color: #ffd607;
+    -fx-border-color: #ffd607;
+}
+
+.button.warning:pressed {
+    -fx-background-color: #e0a800;
+}
+
+
+.text-field {
+    -fx-font-size: 14px; /* Tamaño de fuente */
+    -fx-padding: 8px; /* Padding */
+    -fx-background-radius: 3px; /* Radio del borde */
+    -fx-border-color: #ced4da; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+}
+
+.text-field:hover {
+    -fx-border-color: #80bdff;
+}
+
